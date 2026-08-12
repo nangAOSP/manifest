@@ -13,6 +13,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-16.0.0_r1" />
 
+  <remote  name="nang"
+           fetch="https://github.com/nangAOSP" />
+
   <default revision="refs/heads/lineage-23.0"
            remote="github"
            sync-c="true"
@@ -1011,4 +1014,5 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/nang.xml" />
 </manifest>

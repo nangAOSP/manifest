@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- nangAOSP additions -->
+  <project path="vendor/nang"
+           name="android_vendor_nang"
+           remote="nang"
+           revision="lineage-23.0" />
+
+</manifest>
